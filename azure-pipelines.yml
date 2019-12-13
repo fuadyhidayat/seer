@@ -60,7 +60,7 @@ steps:
       az extension add -n azure-devops
       az artifacts universal publish \
         --organization "https://dev.azure.com/$(org_name)/" \
-        --project="seer" \
+        --project="GAIB2019" \
         --scope project \
         --feed "SeerInference" \
         --name "seer_deployment" \
